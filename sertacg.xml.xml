@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body>
+<InsertPatientVitals xmlns="http://tempuri.org/">
+<insertDateTime>20191207114533</insertDateTime>
+<uniquePatientId>7895432</uniquePatientId>
+<patientName>Gokhan</patientName>
+<patientLastName>Apaydin</patientLastName>
+<patientSecondLastName></patientSecondLastName>
+<patientRoom>501</patientRoom>
+<patientBed>5</patientBed>
+<deviceLocationID>598</deviceLocationID>
+<clinicianID></clinicianID>
+<clinicianID2>308</clinicianID2>
+<clinicianFirstName>Ahmet</clinicianFirstName>
+<clinicianLastName>Polat</clinicianLastName>
+<temperature>26.9</temperature>
+<temperatureMode>0</temperatureMode>
+<heartRate>82</heartRate>
+<so2>56</so2>
+<diastolic>78</diastolic>
+<systolic>45</systolic>
+<respiratoryRate>52</respiratoryRate>
+<patientHeight></patientHeight>
+<patientWeight></patientWeight>
+<patientBMI></patientBMI>
+<patientPain>7</patientPain>
+<o2FlowRate>0</o2FlowRate>
+<o2Concentration>0</o2Concentration>
+<o2Method>0</o2Method>
+<o2Location>0</o2Location>
+<nibppatientposition>0</nibppatientposition>
+<nibpcuffsize>0</nibpcuffsize>
+<nibpcuffsite>0</nibpcuffsite>
+<deviceID>100047961819</deviceID>
+<deviceModel>75ME</deviceModel>
+<customData>
+	<Parameter Name="BOY" Type="Decimal" HISId="" Unit="CM" UnitHISId="">
+		<Value>181.20</Value>
+	</Parameter>
+	<Parameter Name="AGIRLIK" Type="Decimal" HISId="" Unit="KG" UnitHISId="">
+		<Value>78.50</Value>
+	</Parameter>
+	<Parameter Name="AVPU" Type="List" HISId="" ItemHISId="">
+		<Value>Pain</Value>
+		<Score Name="AVPUScore4" ParamName="AVPU" Type="Integer" Formula="RANK" Unit="" HISId="" UnitHISId="" ShowColor="true" ShowValue="true" Rank="Medium" RankHISId="" Color="Orange" ColorHISId="" CalcName="BURSAS">
+		<Value>2</Value>
+		</Score>
+	</Parameter>
+	<Score Name="NIBP::SystolicScore1" ParamName="NIBP::Systolic" Type="Integer" Formula="RANK" Unit="" HISId="" UnitHISId="" ShowColor="true" ShowValue="true" Rank="High" RankHISId="" Color="Red" ColorHISId="" CalcName="BURSAS">
+		<Value>3</Value>
+	</Score>
+	<Score Name="TemperatureScore5" ParamName="Temperature" Type="Integer" Formula="RANK" Unit="" HISId="" UnitHISId="" ShowColor="true" ShowValue="true" Rank="Medium" RankHISId="" Color="Orange" ColorHISId="" CalcName="BURSAS">
+		<Value>2</Value>
+	</Score>
+	<Score Name="Respiration RateScore3" ParamName="Respiration Rate" Type="Integer" Formula="RANK" Unit="" HISId="" UnitHISId="" ShowColor="true" ShowValue="true" Rank="High" RankHISId="" Color="Red" ColorHISId="" CalcName="BURSAS">
+		<Value>3</Value>
+	</Score>
+	<Score Name="Pulse RateScore2" ParamName="Pulse Rate" Type="Integer" Formula="RANK" Unit="" HISId="" UnitHISId="" ShowColor="true" ShowValue="true" Rank="Normal" RankHISId="" Color="Green" ColorHISId="" CalcName="BURSAS">
+		<Value>0</Value>
+	</Score>
+	<Calculation Name="BURSAS" Type="Integer" Formula="SUM" Unit="" HISId="" UnitHISId="" ShowColor="true" ShowValue="true" Rank="High" RankHISId="" Color="Red" ColorHISId="">
+		<Value>10</Value>
+	</Calculation>
+</customData>
+</InsertPatientVitals>
+</soap:Body>
+</soap:Envelope>
