@@ -38,6 +38,12 @@ disable3 = new Boolean();
   else a.className='div disabled'
  }
  
+ 
+ 
+ 
+ 
+ 
+ 
  function normal(a) {
   a.className='normal'
  }
@@ -206,3 +212,9 @@ disable3 = new Boolean();
 </html>
 
 '''
+
+
+
+Reactjs english word input exmple
+https://react-select.com/advanced#portaling
+
