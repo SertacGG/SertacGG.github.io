@@ -227,3 +227,81 @@ https://momentjs.com/timezone/docs/
 http://tr.thetimenow.com/australia/sydney
 
 https://stackoverflow.com/questions/10615828/how-to-use-timezone-offset-in-nodejs
+
+
+
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> 
+        Türkçe Karakter
+    </title> 
+</head> 
+  
+<body style="text-align:center;"> 
+  
+    <h1>Türkçe Karakter</h1> 
+          
+    <textarea type="text" id="textarea"></textarea>
+	
+    <input type="button" value="Click Here!" onclick="myGeeks()">
+	
+    <p id = "two" ></p> 
+	
+    <script> 
+        function myGeeks() { 
+            const str = document.getElementById("textarea").value; 
+            let charArray = str.split(""); 
+
+			for(let x in charArray){
+				switch(charArray[x]){
+					case 'Ş':
+						charArray.splice(x, 1, 'S');
+					  break;
+					case 'ş':
+						charArray.splice(x, 1, 's');
+						break;
+					case 'Ç':
+						charArray.splice(x, 1, 'C');
+						break;
+					case 'ç':
+						charArray.splice(x, 1, 'c');
+					    break;
+					case 'Ü':
+						charArray.splice(x, 1, 'U');
+						break;
+					case 'ü':
+						charArray.splice(x, 1, 'u');
+						break;
+					case 'Ö':
+						charArray.splice(x, 1, 'O');
+					    break;
+					case 'ö':
+						charArray.splice(x, 1, 'o');
+						break;
+					case 'Ğ':
+						charArray.splice(x, 1, 'G');
+						break;
+					case 'ğ':
+						charArray.splice(x, 1, 'g');
+						break;
+					case 'İ':
+						charArray.splice(x, 1, 'I');
+						break;
+					case 'ı':
+						charArray.splice(x, 1, 'i');
+						break;
+					default:
+						
+				}	
+			}
+			
+			const strTwo = document.getElementById("two");
+			strTwo.textContent = charArray.join("");
+        } 
+    </script> 
+</body> 
+  
+</html>                     
+
