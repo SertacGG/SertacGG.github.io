@@ -409,6 +409,6 @@ If you want to see a nice graph of the history, just do hg serve in your reposit
     http://127.0.0.1:8000
     
     
-![TortoiseHg](https://github.com/SertacGG/SertacGG.github.io/blob/master/tortoiseHg.png | 250)
+![TortoiseHg](https://raw.githubusercontent.com/SertacGG/SertacGG.github.io/master/tortoiseHg.png | 250)
 
     
