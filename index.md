@@ -314,22 +314,22 @@ https://stackoverflow.com/questions/10615828/how-to-use-timezone-offset-in-nodej
 
 
 
-**********************
 
 
 
 
 yapacağın ilk şey Mercurial kaydedilmesini için kullanacağı kullanıcı adını ayarlamak
 on a Windows system in %USERPROFILE%\Mercurial.ini
-
+```
 [ui]
 username = John Doe <john@example.com>
-
+```
 
 2 - Varolan Mercurial proje üzerinde çalışmak 
 (Working on an existing Mercurial project)
-
+```
 $ hg clone https://www.mercurial-scm.org/repo/hg mercurial-repo
+```
 requesting all changes
 adding changesets
 adding manifests
@@ -344,58 +344,57 @@ This will create a new directory called "mercurial-repo"
 
 
 3 - Setting up a new Mercurial project (Yeni Mercurial projeyi kurma)
-'''
+```
 cd project/
 $ hg init           # creates .hg
-'''
+```
 You'll want to start by creating a repository in the directory containing your project:
 (Projenizi içeren dizinde bir depo oluşturarak başlamak isteyeceksiniz:)
 
-'''
+```
 $ hg add            # add those 'unknown' files
 $ hg commit         # commit all changes into a new changeset, edit changelog entry
-'''
-'''
+```
+```
 hg commit:
-'''
+```
 save your changes in the current repository 
 (Geçerli depoda değişiklikleri kaydedin)
 
-'''
+```
 hg commit -m 'My changes' :
-'''
+```
 save your changes in the current repository with comment for my changes.
 
-'''
+```
 hg log:
-'''
+```
 see all changes in your repository 
 (sizin veri havuzundaki tüm değişiklikleri görmek)
 
-
-'''
+```
 hg pull:
-'''
+```
 get all changes from another repository into the current one
  (Geçerli birine başka deposundaki bütün değişiklikleri almak)
 
-'''
+```
 hg push:
-'''
+```
 get all changes from your repository into another one 
 (Başka bir birine deposundaki bütün değişiklikleri almak)
 
-'''
+```
 hg merge:
-'''
+```
 join different lines of history 
 (tarihin farklı çizgileri katılmak)
 
 
 
-'''
+```
 hg serve:
-'''
+```
 create an instant-webserver. People can see the history there and pull from it 
 (bir anlık web sunucusu oluşturun. İnsanlar orada geçmişini görmek ve ondan indirebiliriz)
 
@@ -410,6 +409,6 @@ If you want to see a nice graph of the history, just do hg serve in your reposit
     http://127.0.0.1:8000
     
     
-    ![TortoiseHg](https://github.com/SertacGG/SertacGG.github.io/blob/master/tortoiseHg.png)
+![TortoiseHg](https://github.com/SertacGG/SertacGG.github.io/blob/master/tortoiseHg.png | 250)
 
     
