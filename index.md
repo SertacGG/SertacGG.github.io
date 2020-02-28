@@ -408,3 +408,8 @@ create an instant-webserver. People can see the history there and pull from it
 If you want to see a nice graph of the history, just do hg serve in your repository and then direct your browser to
 
     http://127.0.0.1:8000
+    
+    
+    ![TortoiseHg](https://github.com/SertacGG/SertacGG.github.io/blob/master/tortoiseHg.png)
+
+    
