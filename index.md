@@ -213,6 +213,7 @@ disable3 = new Boolean();
 
 '''
 
+https://stackoverflow.com/questions/33012936/copy-dependency-of-a-maven-project-to-specific-folder
 
 https://medium.com/@sunitj/few-things-you-need-to-know-about-timezone-f0849c606cc9
 https://stackoverflow.com/jobs/357864/junior-fullstack-engineer-m-f-d-jvm-private-scout24
