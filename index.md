@@ -203,3 +203,6 @@ If you want to see a nice graph of the history, just do hg serve in your reposit
 ![TortoiseHg](https://raw.githubusercontent.com/SertacGG/SertacGG.github.io/master/tortoiseHg.png)
 
     
+*****************************
+https://medium.com/javarevisited/the-2019-react-js-developer-roadmap-9a8e290b8a56
+*****************************
