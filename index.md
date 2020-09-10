@@ -4,8 +4,6 @@ Bu hesap denemedir [Aktif Github hesabım](https://github.com/sertacguler)
 
 ***** https://stackoverflow.com/questions/33012936/copy-dependency-of-a-maven-project-to-specific-folder
 
-https://stackoverflow.com/jobs/357864/junior-fullstack-engineer-m-f-d-jvm-private-scout24
-
 https://medium.com/free-code-camp/the-react-handbook-b71c27b0a795
 https://codesandbox.io/s/
 https://codepen.io/
