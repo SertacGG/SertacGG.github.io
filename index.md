@@ -194,9 +194,3 @@ If you want to see a nice graph of the history, just do hg serve in your reposit
 *****************************
 https://medium.com/javarevisited/the-2019-react-js-developer-roadmap-9a8e290b8a56
 *****************************
-
-
-http://avicenna.datasel.com.tr/login?back_url=http%3A%2F%2Favicenna.datasel.com.tr%2F
-
-
-https://exchange.datasel.com.tr/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fexchange.datasel.com.tr%2fowa%2f
