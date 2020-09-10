@@ -2,14 +2,9 @@
 
 Bu hesap denemedir [Aktif Github hesabım](https://github.com/sertacguler) 
 
-https://stackoverflow.com/questions/33012936/copy-dependency-of-a-maven-project-to-specific-folder
-
-https://medium.com/@sunitj/few-things-you-need-to-know-about-timezone-f0849c606cc9
+***** https://stackoverflow.com/questions/33012936/copy-dependency-of-a-maven-project-to-specific-folder
 
 https://stackoverflow.com/jobs/357864/junior-fullstack-engineer-m-f-d-jvm-private-scout24
-
-
-
 
 https://medium.com/free-code-camp/the-react-handbook-b71c27b0a795
 https://codesandbox.io/s/
@@ -17,13 +12,6 @@ https://codepen.io/
 
 https://goalkicker.com/
 https://goalkicker.com/
-
-https://momentjs.com/timezone/docs/
-
-http://tr.thetimenow.com/australia/sydney
-
-https://stackoverflow.com/questions/10615828/how-to-use-timezone-offset-in-nodejs
-
 
 
 <!DOCTYPE html> 
