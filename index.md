@@ -9,7 +9,6 @@ https://codesandbox.io/s/
 https://codepen.io/
 
 https://goalkicker.com/
-https://goalkicker.com/
 
 
 <!DOCTYPE html> 
