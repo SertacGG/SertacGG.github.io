@@ -4,6 +4,8 @@ Bu hesap denemedir [Aktif Github hesabım](https://github.com/sertacguler)
 
 ***** https://stackoverflow.com/questions/33012936/copy-dependency-of-a-maven-project-to-specific-folder
 
+https://www.tranit.co/news/stop-making-5-javascript-style-mistakes/
+
 https://codesandbox.io/s/
 
 https://codepen.io/
