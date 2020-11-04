@@ -1,7 +1,7 @@
 ## Welcome to GitHub Pages
 
 Bu hesap denemedir [Aktif Github hesabım](https://github.com/sertacguler) 
-
+https://medium.com/javascript-in-plain-english/here-are-5-useful-react-components-fb3927e7d790
 ***** https://stackoverflow.com/questions/33012936/copy-dependency-of-a-maven-project-to-specific-folder
 
 https://www.tranit.co/news/stop-making-5-javascript-style-mistakes/
